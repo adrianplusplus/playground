@@ -1,0 +1,22 @@
+{
+  "name": "playground",
+  "homepage": "https://github.com/adrianplusplus/playground",
+  "authors": [
+    "adrianplusplus <agalicia@rohan.sdsu.edu>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.5.5",
+    "angular-ui-router": "^0.3.0",
+    "satellizer": "^0.14.0"
+  }
+}

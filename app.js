@@ -24,6 +24,10 @@
                 templateUrl: 'partials/about.html',
                 controller:'AboutCtrl'
             })
+            .state('contact',{
+                url: '/contact',
+                templateUrl: 'partials/contact.html',
+            })
         
         ;
     })

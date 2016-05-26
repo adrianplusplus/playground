@@ -50,5 +50,5 @@
         console.log('loaded secondaryCtrl');
         
     }]);
-
+    
 }());

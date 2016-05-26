@@ -19,7 +19,13 @@
                 templateUrl: 'partials/secondary.html',
                 controller:'SecondaryCtrl'
             })
-
+            .state('about',{
+                url: '/about',
+                templateUrl: 'partials/about.html',
+                controller:'AboutCtrl'
+            })
+        
+        ;
     })
 
     app.controller('HomeCtrl', ['$scope', function ($scope) {
@@ -33,6 +39,10 @@
         
     }]);
     app.controller('SecondaryCtrl',['$scope',function($scope){
+        console.log('loaded secondaryCtrl');
+        
+    }]);
+    app.controller('AboutCtrl',['$scope',function($scope){
         console.log('loaded secondaryCtrl');
         
     }]);
